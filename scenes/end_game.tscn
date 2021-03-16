@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://graphics/ending.webm" type="VideoStream" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="VideoPlayer" type="VideoPlayer" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_scale = Vector2( 2.22975, 1.57206 )
+stream = ExtResource( 1 )
+autoplay = true
+expand = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
